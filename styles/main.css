@@ -44,6 +44,24 @@ body {
   display: flex;
   flex-direction: column;
 }
+.home-link {
+   position: fixed;
+   top: 0.75rem;
+   left: 0.75rem;
+   z-index: 300;
+   padding: 0.4rem 0.75rem;
+   border-radius: 10px;
+   background: var(--panel-solid);
+   border: 2px solid var(--accent2);
+   color: var(--ink);
+   text-decoration: none;
+   font-weight: 800;
+   font-size: 0.9rem;
+   box-shadow: var(--shadow);
+}
+.home-link:hover {
+   filter: brightness(1.15);
+}
 
 .level-bar {
   display: flex;
